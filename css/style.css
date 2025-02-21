@@ -1,0 +1,37 @@
+.logo {
+  width: 100px;
+}
+
+.skill {
+  margin-bottom: 30px; /* Space between skills */
+}
+
+.skill h3 {
+  margin-bottom: 10px; /* Space between skill name and progress bar */
+  font-size: 22px; /* Slightly larger font size */
+  color: #d5006d; /* A soft pink color for the skill name */
+  font-family: "Arial", sans-serif; /* Use a clean, modern font */
+}
+
+.progress {
+  background-color: #f0d4e0; /* Light pink background for the progress bar */
+  border-radius: 25px; /* More rounded corners */
+  height: 30px; /* Increased height for a more substantial look */
+  overflow: hidden; /* Hide overflow */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.progress-bar {
+  background: linear-gradient(
+    135deg,
+    #ff6f91,
+    #ffcccb
+  ); /* Gradient color for the progress bar */
+  height: 100%; /* Full height */
+  color: white; /* Text color */
+  text-align: center; /* Center the text */
+  line-height: 30px; /* Center text vertically */
+  transition: width 0.4s ease; /* Smooth transition for width */
+  border-radius: 25px; /* Match the rounded corners of the progress bar */
+  font-weight: bold; /* Make the text bold */
+}
